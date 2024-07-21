@@ -1,0 +1,41 @@
+{% extends 'main.html' %} 
+{% load static %} 
+{% block content %}
+<div class="container">
+<div class="team row">
+    <div class="col-sm-4 team-column">
+      <div class="team-card">
+        <img src="{% static 'images/players/player1.png' %}" alt="Jane" style="width:100%">
+        <div class="player-container">
+          <h2>Jane Doe</h2>
+          <p class="player-title">CEO & Founder</p>
+       
+        </div>
+      </div>
+    </div>
+  
+    <div class="col-sm-4 team-column">
+      <div class="team-card">
+        <img src="{% static 'images/players/player1.png' %}" alt="Mike" style="width:100%">
+        <div class="player-container">
+          <h2>Mike Ross</h2>
+          <p class="player-title">Art Director</p>
+        
+        </div>
+      </div>
+    </div>
+    
+    <div class="col-sm-4 team-column">
+      <div class="team-card">
+        <img src="{% static 'images/players/player1.png' %}" alt="John" style="width:100%">
+        <div class="player-container">
+          <h2>John Doe</h2>
+          <p class="player-title">Designer</p>
+        
+        </div>
+      </div>
+    </div>
+  </div>
+</div>
+
+  {% endblock%}

@@ -1,0 +1,86 @@
+{% extends 'main.html' %} 
+{% load static %} 
+{% block content %}
+
+
+<div class="container">
+    <div class="row">
+      <div class="col-12">
+        <h2 class="text-center my-4">2023 Schedule</h2>
+        <button class="btn btn-warning">ADD TO CALENDAR</button>
+        <button class="btn btn-warning">PRINT</button>
+      </div>
+    </div>
+    <div class="row">
+      <div class="col-12">
+        <table class="schedule table table-bordered table-hover">
+          <thead class="thead-dark">
+            <tr class="table-heading">
+              <th>Month</th>
+              <th>Activity</th>
+              <th>Location</th>
+              <th>Date</th>
+            </tr>
+          </thead>
+          <tbody>
+            <tr class="table-details">
+              <td rowspan="4">January</td>
+              <td>Pinboard Issue</td>
+              <td>Online</td>
+              <td>14th</td>
+            </tr>
+            <tr class="table-details">
+              <td>KIU 3X3 Tournament</td>
+              <td>KIU Kansanga</td>
+              <td>15th - 16th</td>
+            </tr>
+            <tr class="table-details">
+              <td>Team Training Week 1</td>
+              <td>City High School</td>
+              <td>18th & 20th</td>
+            </tr>
+            <tr class="table-details">
+              <td>FUBA 3X3 Tournament</td>
+              <td>TBD</td>
+              <td>22 & 23 Jan</td>
+            </tr>
+            <tr class="table-details">
+              <td rowspan="3" >February</td>
+              <td>Team Training Week 3</td>
+              <td>City High School</td>
+              <td>01st, 03rd</td>
+            </tr>
+            <tr class="table-details">
+              <td>Team Training Week 3</td>
+              <td>City High School</td>
+              <td>01st, 03rd</td>
+            </tr>
+            <tr class="table-details">
+              <td>Team Training Week 3</td>
+              <td>City High School</td>
+              <td>01st, 03rd</td>
+            </tr>
+              <tr class="table-details">
+              <td rowspan="3" >March</td>
+              <td>UCU Invitational Tournament</td>
+              <td>UCU Mukono</td>
+              <td>05th - 06th</td>
+            </tr>
+            <tr class="table-details">
+              <td>Reporting and data management training</td>
+              <td>TBD</td>
+              <td>20th</td>
+            </tr>
+            <tr class="table-details">
+              <td>Namuwongo Community Outreach</td>
+              <td>Namuwongo</td>
+              <td>20th</td>
+            </tr>
+          </tbody>
+        </table>
+      </div>
+    </div>
+  </div>
+   
+
+  {% endblock%}

@@ -1,0 +1,87 @@
+{% load static %}
+<header class="main__header">
+  <div class="main__container">
+    <a href="{% url 'home' %}" class="header__logo">
+      <img src="{% static 'images/assets/logo.png' %}" />
+    </a>
+    <nav class="header__menu">
+        <div class="page-links">
+            <a href="{% url 'home' %}"> Home</a>
+            <div class="main__dropdown">
+                <button class="dropbtn">Store</button>
+                <div class="dropcontent">
+                    <a href="">Women</a>
+                    <a href="">Men</a>
+                    <a href="">Kids</a>
+                    <a href="">Accessories</a>
+                </div>
+            </div>
+            <div class="main__dropdown">
+                <button class="dropbtn">Membership</button>
+                <div class="dropcontent">
+                    <a href="">Membership Categories</a>
+                    <a href="">Activities of Interest</a>
+                    <a href="">Forms</a>
+                    <a href="">Payment</a>
+                    <a href="">Contact us</a>
+                </div>
+            </div>
+            <div class="main__dropdown">
+                <button class="dropbtn">Community</button>
+                <div class="dropcontent">
+                    <a href="/community">Angels in the Community</a>
+                    <a href="">Donation Requests</a>
+                </div>
+            </div>
+            <div class="main__dropdown">
+                <button class="dropbtn">News and Features</button>
+                <div class="dropcontent">
+                    <a href="">News</a>
+                    <a href="">Angels Pinboard</a>
+                    <a href="">Angels Board</a>
+                    <a href="">Angels Stream</a>
+                </div>
+            </div>
+            <div class="main__dropdown">
+                <button class="dropbtn">Team</button>
+                <div class="dropcontent">
+                    <a href="/team">Roster</a>
+                    <a href="">Team Stats</a>
+                    <a href="">Player Stats</a>
+                    <a href="">History</a>
+                    <a href="">Staff Directory</a>
+                </div>
+            </div>
+            <div class="main__dropdown">
+                <button class="dropbtn">Schedule</button>
+                <div class="dropcontent">
+                    <a href="/games">Games Schedule</a>
+                    <a href="/clubschedule">Master Schedule</a>
+                </div>
+            </div>
+
+        </div>
+        <div class="social-links">
+            <a href="">
+                <i class="fa-brands fa-facebook"></i>
+            </a>
+            <a href="">
+                <i class="fa-brands fa-twitter"></i>
+            </a>
+            <a href="">
+                <i class="fa-brands fa-instagram"></i>
+            </a>
+            <a href="">
+                <i class="fa-brands fa-tiktok"></i>
+            </a>
+            <a href="">
+                <i class="fa-brands fa-youtube"></i>
+            </a>
+            <a href="">
+                <i class="fa-solid fa-envelope"></i>
+            </a>
+        </div>
+      
+    </nav>
+  </div>
+</header>

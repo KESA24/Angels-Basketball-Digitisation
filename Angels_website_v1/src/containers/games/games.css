@@ -1,0 +1,101 @@
+.card {
+  display: flex;
+  flex-direction: column;
+  /* border: 1px solid black; */
+  /* background-color: white; */
+  border-radius: 8px;
+  overflow: hidden;
+  height: 120px;
+  margin-top: 0.5rem;
+  margin-left: 2rem;
+  margin-right: 2rem;
+  color: black;
+  align-items: center;
+  justify-content: center;
+  font-family: var(--font-family);
+  box-shadow: 0 4px 8px 0 rgba(0,0,0,0.2);
+  transition: 0.3s;
+}
+.card:hover {
+  box-shadow: 0 8px 16px 0 rgba(0,0,0,0.2);
+}
+.card-top {
+  margin-top: 10px;
+  margin-bottom: 5px;
+  text-align: center;
+}
+
+.card-top h3 {
+  color: grey;
+  font-size: 14px;
+}
+
+.card-middle {
+  display: flex;
+  flex-direction: row;
+  align-items: center;
+  justify-content: center;
+  align-content: space-between;
+  margin-bottom: 5px;
+}
+
+.teams_content{
+  display: flex;
+  flex-direction: row;
+  align-items: center;
+  justify-content: center;
+  align-content: space-between;
+  padding-left: 20px;
+  padding-right: 20px;
+}
+
+.logobox{
+  height: 50px;
+  width: 50px;
+  /* border: 1px solid plum; */
+  border-radius: 50%;
+  /* padding: 10px; */
+  display: flex;
+  flex-direction: row;
+  align-items: center;
+  justify-content: center;
+  /* align-content: space-between; */
+  /* background-color: plum; */
+}
+.teams_content h2 {
+  margin-left: 10px;
+  margin-right: 10px;
+}
+
+.card-bottom {
+  border-top: 1px solid rgb(151, 149, 149);
+  display: flex;
+  flex-direction: row;
+  align-items: center;
+  justify-content: center;
+  align-content: space-between;
+  margin-bottom: 20px;
+}
+.card-bottom a {
+  display: flex;
+  flex-direction: row;
+  align-items: center;
+  justify-content: center;
+  align-content: space-between;
+  padding-left: 20px;
+  padding-right: 20px;
+  margin-left: 10px;
+  margin-right: 10px;
+}
+
+.logobox img {
+  height: 50px;
+  width: 50px;
+}
+.slick-slide > div {
+  margin: 0 10px;
+}
+
+.slick-list {
+  margin: 0 -10px;
+}
